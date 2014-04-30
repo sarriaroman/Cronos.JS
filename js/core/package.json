@@ -1,0 +1,17 @@
+{
+	"files": [
+		"grapnel.min.js", 
+		"hammer.min.js",
+		"reqwest.min.js",
+		"q.js",
+		"ashe.js",
+		"cronos/cronos.js",
+		"cronos/templates.js",
+		"cronos/router.js",
+		"cronos/storage.js",
+		"cronos/notification.js",
+		"cronos/dom.js",
+		"cronos/resources.js",
+		"cronos/touch.js"
+	]
+}

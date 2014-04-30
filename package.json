@@ -1,0 +1,14 @@
+{
+  "name": "grunt-cronos-app",
+  "version": "0.0.1",
+  "dependencies": {
+    "grunt": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-task-helper": "*",
+    "grunt-contrib-less": "*",
+    "glob" : "*",
+    "uglify-js" : "*",
+    "cheerio" : "*",
+    "html-minifier" : "*"
+  }
+}
