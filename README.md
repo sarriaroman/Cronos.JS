@@ -21,7 +21,7 @@ http://nodejs.org/
 
 ### Gulp.JS
 ```
-[sudo ]npm install -g gulp
+[sudo] npm install -g gulp
 ```
 
 ## How to work with Cronos.JS
