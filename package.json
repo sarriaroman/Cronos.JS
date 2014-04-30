@@ -1,11 +1,13 @@
 {
-  "name": "grunt-cronos-app",
-  "version": "0.0.1",
-  "dependencies": {
-    "grunt": "*",
-    "grunt-contrib-watch": "*",
-    "grunt-task-helper": "*",
-    "grunt-contrib-less": "*",
+  "name": "cronos-gulp",
+  "version": "0.1.1",
+  "description": "Micro Server + Building process",
+  "devDependencies": {
+    "gulp": "~3.5.6",
+    "gulp-less": "^1.2.3",
+    "gulp-connect": "^2.0.5",
+    "gulp-plumber": "^0.6.0",
+    "gulp-watch": "^0.5.4",
     "glob" : "*",
     "uglify-js" : "*",
     "cheerio" : "*",
