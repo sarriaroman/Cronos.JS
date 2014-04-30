@@ -31,6 +31,23 @@ var gulp = require('gulp'),
 		css: "build/styles/"
 	};
 
+/* HELPERS */
+var buildFolders = function() {
+	// Check build folders
+	if( !fs.existsSync( destinations.build ) ) {
+		fs.mkdirSync( destinations.build );
+	}
+
+	if( !fs.existsSync( destinations.js ) ) {
+		fs.mkdirSync( destinations.js );
+	}
+
+	if( !fs.existsSync( destinations.css ) ) {
+		fs.mkdirSync( destinations.css );
+	}
+}
+/*		   */
+
 /******************************* ****** ********************************/
 /******************************* SERVER ********************************/
 /*******************************  1234  ********************************/
@@ -53,6 +70,8 @@ gulp.task('serve', function(event) {
 /******************************* ****** ********************************/
 
 var processJSFiles = function(event) {
+	buildFolders();
+
 	var core_files = [];
 
 	var cronos_files = (JSON.parse(fs.readFileSync( path.join(sources.cronos.core, 'package.json'), 'utf8'))).files;
@@ -126,6 +145,8 @@ gulp.task('less:watch', function(event) {
 /******************************* ****** ********************************/
 
 var processTemplatesFiles = function(event) {
+	buildFolders();
+
 	var hf = fs.readFileSync('views/index.html', "utf8");
 	var $ = cheerio.load(hf);
 
