@@ -43,6 +43,9 @@ http://nodejs.org/
 ### Core
 > Here you will find the core of Cronos.JS, you can add your own module. Be care of add it into package.json ;)
 
+## Documentation
+> You can find the Core documentation into de Docs folder
+
 ## Server and Building
 
 ### Automatic building and serving
