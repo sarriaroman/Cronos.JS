@@ -46,6 +46,9 @@ http://nodejs.org/
 ## Documentation
 > You can find the Core documentation into de Docs folder
 
+## Output code
+> All your built code will live into the "build" folder on the root.
+
 ## Server and Building
 
 ### Automatic building and serving
